@@ -20,7 +20,7 @@ int main(){
   cout << "Die 2: " << b << "\n";
   cout << "Total value: " << a + b << "\n";
 
-  if(total > 7) cout << name << "Won!\n";
+  if(a + b > 7) cout << name << "Won!\n";
   else cout << name << "Lost!\n";
 
   return 0;
