@@ -17,6 +17,7 @@ int main(){
     srand(time(NULL));
     a = rand() % 6 + 1;
     b = rand() % 6 + 1;
+    cout << "Rolling the dice ...\n";
     cout << "Die 1: " << a << "\n";
     cout << "Die 2: " << b << "\n";
     cout << "Total value: " << a + b << "\n";
